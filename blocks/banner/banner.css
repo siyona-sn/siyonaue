@@ -1,0 +1,23 @@
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner-content {
+  padding: 32px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-content h1,
+.banner-content h2,
+.banner-content h3 {
+  margin-bottom: 16px;
+}
+
+.banner-content p {
+  margin-bottom: 16px;
+}
