@@ -1,0 +1,20 @@
+.teaser {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.teaser picture {
+  display: block;
+  line-height: 0;
+}
+
+.teaser img {
+  height: auto;
+  width: 100%;
+}
+
+.teaser > div {
+  padding: 24px;
+}
